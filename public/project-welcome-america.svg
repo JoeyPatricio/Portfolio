@@ -1,0 +1,54 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="welcomeTitle welcomeDesc">
+  <title id="welcomeTitle">Welcome to America Demo</title>
+  <desc id="welcomeDesc">A screenshot-style preview of the Welcome to America immigration support website.</desc>
+  <defs>
+    <linearGradient id="welcomeGrad" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#e9f7fe" />
+    </linearGradient>
+    <linearGradient id="navGrad" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#0b3d91" />
+      <stop offset="100%" stop-color="#1a64d8" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#welcomeGrad)" rx="40" ry="40" />
+  <rect x="80" y="60" width="1040" height="780" rx="32" ry="32" fill="#ffffff" stroke="#dde4f0" stroke-width="2" />
+  <rect x="100" y="90" width="1000" height="72" rx="24" ry="24" fill="url(#navGrad)" />
+  <text x="140" y="138" font-family="Inter, sans-serif" font-size="32" font-weight="700" fill="#ffffff">Welcome to America</text>
+  <text x="420" y="138" font-family="Inter, sans-serif" font-size="18" fill="#d2e3ff">Topics</text>
+  <text x="520" y="138" font-family="Inter, sans-serif" font-size="18" fill="#d2e3ff">Forms</text>
+  <text x="600" y="138" font-family="Inter, sans-serif" font-size="18" fill="#d2e3ff">Find Help</text>
+  <text x="700" y="138" font-family="Inter, sans-serif" font-size="18" fill="#d2e3ff">About</text>
+  <rect x="840" y="102" width="220" height="40" rx="20" ry="20" fill="#ffffff" opacity="0.95" />
+  <text x="850" y="128" font-family="Inter, sans-serif" font-size="14" fill="#1f2f4d">Select Language</text>
+  <rect x="930" y="108" width="120" height="26" rx="13" ry="13" fill="#f0f7ff" />
+  <text x="982" y="126" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" fill="#2e4a75">English</text>
+  <rect x="120" y="190" width="960" height="90" rx="24" ry="24" fill="#daf6e2" />
+  <text x="140" y="250" font-family="Inter, sans-serif" font-size="18" fill="#1f4728">Update: changes to immigration policy in effect from October 2025</text>
+  <text x="140" y="330" font-family="Inter, sans-serif" font-size="54" font-weight="700" fill="#10243f">Welcome to America</text>
+  <text x="140" y="380" font-family="Inter, sans-serif" font-size="20" fill="#4c5c74">Find resources and information to help you navigate the immigration process</text>
+  <line x1="120" y1="420" x2="1080" y2="420" stroke="#e6edf6" stroke-width="2" />
+  <text x="140" y="470" font-family="Inter, sans-serif" font-size="22" font-weight="700" fill="#10243f">Immigration</text>
+  <rect x="140" y="500" width="180" height="70" rx="18" ry="18" fill="#93f0c6" />
+  <text x="230" y="543" text-anchor="middle" font-family="Inter, sans-serif" font-size="20" fill="#0f3b1f" font-weight="700">Registration</text>
+  <rect x="360" y="500" width="180" height="70" rx="18" ry="18" fill="#93f0c6" />
+  <text x="450" y="543" text-anchor="middle" font-family="Inter, sans-serif" font-size="20" fill="#0f3b1f" font-weight="700">Green Cards</text>
+  <rect x="580" y="500" width="180" height="70" rx="18" ry="18" fill="#93f0c6" />
+  <text x="670" y="543" text-anchor="middle" font-family="Inter, sans-serif" font-size="20" fill="#0f3b1f" font-weight="700">Legal Support</text>
+  <line x1="120" y1="590" x2="1080" y2="590" stroke="#e6edf6" stroke-width="2" />
+  <text x="140" y="640" font-family="Inter, sans-serif" font-size="22" font-weight="700" fill="#10243f">Work & Life</text>
+  <rect x="140" y="670" width="180" height="70" rx="18" ry="18" fill="#c2f8d7" />
+  <text x="230" y="713" text-anchor="middle" font-family="Inter, sans-serif" font-size="20" fill="#0f3b1f" font-weight="700">Driver's Licenses</text>
+  <rect x="360" y="670" width="240" height="70" rx="18" ry="18" fill="#c2f8d7" />
+  <text x="480" y="713" text-anchor="middle" font-family="Inter, sans-serif" font-size="20" fill="#0f3b1f" font-weight="700">Government Assistance</text>
+  <rect x="640" y="670" width="180" height="70" rx="18" ry="18" fill="#c2f8d7" />
+  <text x="730" y="713" text-anchor="middle" font-family="Inter, sans-serif" font-size="20" fill="#0f3b1f" font-weight="700">Employment</text>
+  <line x1="120" y1="760" x2="1080" y2="760" stroke="#e6edf6" stroke-width="2" />
+  <text x="140" y="810" font-family="Inter, sans-serif" font-size="22" font-weight="700" fill="#10243f">Health</text>
+  <rect x="140" y="840" width="180" height="70" rx="18" ry="18" fill="#c2f8d7" />
+  <text x="230" y="883" text-anchor="middle" font-family="Inter, sans-serif" font-size="20" fill="#0f3b1f" font-weight="700">Mental Health</text>
+  <rect x="360" y="840" width="180" height="70" rx="18" ry="18" fill="#c2f8d7" />
+  <text x="450" y="883" text-anchor="middle" font-family="Inter, sans-serif" font-size="20" fill="#0f3b1f" font-weight="700">Healthcare</text>
+  <rect x="580" y="840" width="220" height="70" rx="18" ry="18" fill="#c2f8d7" />
+  <text x="690" y="883" text-anchor="middle" font-family="Inter, sans-serif" font-size="20" fill="#0f3b1f" font-weight="700">Reproductive</text>
+</svg>

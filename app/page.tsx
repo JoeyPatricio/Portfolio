@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-gray-50">
@@ -22,7 +24,7 @@ export default function Home() {
       <section id="home" className="pt-16 bg-gradient-to-r from-blue-500 to-purple-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
           <div className="text-center">
-            <h1 className="text-4xl md:text-6xl font-bold mb-4">Hi, I'm Joseph Patricio</h1>
+            <h1 className="text-4xl md:text-6xl font-bold mb-4">Hi, I&apos;m Joseph Patricio</h1>
             <p className="text-xl md:text-2xl mb-8">Full Stack Developer | Designer | Creator</p>
             <a href="#contact" className="bg-white text-blue-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition">Get In Touch</a>
           </div>
@@ -35,7 +37,7 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">About Me</h2>
           <div className="flex flex-col lg:flex-row items-center gap-10">
             <div className="lg:w-5/12 flex justify-center">
-              <img src="/1764697225458.jpg" alt="Profile" className="rounded-full w-64 h-64 object-cover shadow-xl border-4 border-blue-100" />
+              <Image src="/1764697225458.jpg" alt="Profile" width={256} height={256} className="rounded-full object-cover shadow-xl border-4 border-blue-100" />
             </div>
             <div className="lg:w-7/12 space-y-6">
               <p className="text-lg text-gray-700 leading-relaxed">
@@ -57,20 +59,20 @@ export default function Home() {
       {/* Projects Section */}
       <section id="projects" className="py-20 bg-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12">My Projects</h2>
+          <h2 className="text-3xl sm:text-4xl font-black text-slate-900 text-center mb-12">My Projects</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Project 1 */}
             <div className="bg-white p-6 rounded-lg shadow-md">
-              <img src="/placeholder-project1.jpg" alt="Sitka Sound Science Center" className="w-full h-48 object-cover rounded mb-4" />
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Sitka Sound Science Center</h3>
-              <p className="text-gray-600 mb-4">An interactive science center project focused on marine education and environmental awareness in Sitka, Alaska.</p>
+              <Image src="/WtoA.png" alt="SSSC Marine Debris Database screenshot" width={400} height={192} className="w-full object-cover object-top rounded mb-4" />
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">SSSC Marine Debris Database</h3>
+              <p className="text-gray-700 mb-4">A data-driven application built for the Sitka Sound Science Center to collect, categorize, and analyze marine debris sightings. The database supports cleanup tracking, volunteer reporting, and public-facing dashboards to help educators and coastal managers monitor pollution trends.</p>
               <a href="https://sitka-sound-science-center-marine-debris.onrender.com/" target="_blank" rel="noreferrer" className="text-blue-600 hover:underline">View Project</a>
             </div>
             {/* Project 2 */}
             <div className="bg-white p-6 rounded-lg shadow-md">
-              <img src="/placeholder-project2.jpg" alt="Welcome to America" className="w-full h-48 object-cover rounded mb-4" />
+              <Image src="/SSSC.png" alt="Welcome to America screenshot" width={400} height={192} className="w-full object-cover object-top rounded mb-4" />
               <h3 className="text-xl font-semibold text-gray-900 mb-2">Welcome to America</h3>
-              <p className="text-gray-600 mb-4">A project celebrating American culture and heritage, designed to welcome and educate visitors about the nation's history and diversity.</p>
+              <p className="text-gray-700 mb-4">A one-stop immigration resource designed to help newcomers navigate services, legal support, and community resources. It includes multilingual guidance, accessible information, and practical tools for users seeking immigration assistance in the United States.</p>
               <a href="https://github.com/juanms23/welcome-to-america" target="_blank" rel="noreferrer" className="text-blue-600 hover:underline">View Project</a>
             </div>
           </div>
@@ -141,7 +143,7 @@ export default function Home() {
       {/* Contact Section */}
       <section id="contact" className="py-20 bg-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12">Contact Me</h2>
+          <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">Contace Me</h2>
           <div className="max-w-md mx-auto text-center space-y-6">
             <p className="text-lg text-gray-700">The easiest way to reach me is by email. Click the button below to send a message directly to joe.patricio@hotmail.com.</p>
             <a href="mailto:joe.patricio@hotmail.com" className="inline-flex w-full items-center justify-center rounded-full border border-blue-600 bg-blue-600 px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-blue-700 transition">
@@ -154,7 +156,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-gray-800 text-white py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p>&copy; 2024 Joseph Patricio. All rights reserved.</p>
+          <p>&copy; 2026 Joseph Patricio. All rights reserved.</p>
         </div>
       </footer>
     </div>
