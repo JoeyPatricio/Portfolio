@@ -50,6 +50,9 @@ export default function Home() {
                 <a href="https://www.linkedin.com/in/joe-pat/" className="inline-flex items-center justify-center rounded-full border border-slate-300 bg-white px-6 py-3 text-sm font-semibold text-slate-900 shadow-sm hover:bg-slate-100 transition" target="_blank" rel="noreferrer">
                   LinkedIn
                 </a>
+                <a href="https://github.com/JoeyPatricio" className="inline-flex items-center justify-center rounded-full border border-slate-300 bg-white px-6 py-3 text-sm font-semibold text-slate-900 shadow-sm hover:bg-slate-100 transition" target="_blank" rel="noreferrer">
+                  GitHub
+                </a>
               </div>
             </div>
           </div>
